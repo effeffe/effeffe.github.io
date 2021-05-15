@@ -5,11 +5,11 @@ title: About
 
 ## effeffe - Filippo Falezza's personal website
 ### whoami
-Hello, I'm a third year physics student at the University of Birmingham, Uk.  
-My main intrests are physics, electronics, hardware hacking, programming and Linux, but many others often come across.
+Hello, I'm a third year physics student at the University of Birmingham, UK.  
+My main intrests are physics, electronics, hardware hacking, programming and Linux, among many others.
 
 ### declaration of intents
-This website has as purpose to publish some of the projects I do, together with random stuff I come across daily, which is not usually available as a blog and it would be useless to make a specific one just for that.  
+This website has the purpose of publishing some of the projects I do, together with random stuff I come across daily, which is not usually available as a blog and it would be pointless to make a specific one just for that.  
 Enjoy :)
 
 {% comment %}
