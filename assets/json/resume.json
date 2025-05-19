@@ -22,6 +22,28 @@
       }
     ]
   },
+   "education": [
+    {
+      "institution": "University of Birmingham, Birmingham, UK",
+      "location": "Birmingham, UK",
+      "url": "https://www.birmingham.ac.uk/",
+      "area": "Nuclear Physics",
+      "studyType": "PhD",
+      "startDate": "2022-09",
+      "endDate": "2026-09",
+      "courses":[]
+    },
+    {
+      "institution": "University of Birmingham, Birmingham, UK",
+      "location": "Birmingham, UK",
+      "url": "https://www.birmingham.ac.uk/",
+      "area": "Physics",
+      "studyType": "MSci",
+      "startDate": "2018-09",
+      "endDate": "2022-06",
+      "courses":[]
+    }
+  ],
   "volunteer": [
     {
       "organization": "GOLEM Linux User Group",
@@ -34,7 +56,7 @@
     },
     {
       "organization": "The Scout Association",
-      "location": "Birmingham, United Kingdom",
+      "location": "Birmingham, UK",
       "position": "Assistant Section Leader",
       "startDate": "2022-04-01",
       "endDate": "0000-00-00",
@@ -42,26 +64,7 @@
       "highlights": [""]
     }
   ],
-  "education": [
-    {
-      "institution": "University of Birmingham, Birmingham, United Kingdom",
-      "location": "Birmingham, United Kingdom",
-      "url": "https://www.birmingham.ac.uk/",
-      "area": "Nuclear Physics",
-      "studyType": "PhD",
-      "startDate": "2022-09",
-      "endDate": "2026-09",
-    },
-    {
-      "institution": "University of Birmingham, Birmingham, United Kingdom",
-      "location": "Birmingham, United Kingdom",
-      "url": "https://www.birmingham.ac.uk/",
-      "area": "Physics",
-      "studyType": "MSci",
-      "startDate": "2018-09",
-      "endDate": "2022-06",
-    }
-  ],
+
   "certificates": [
     {
       "name": "Fundamentals of Accelerated Computing with CUDA C/C++",
@@ -78,7 +81,7 @@
       "releaseDate": "",
       "url": "",
       "summary": ""
-    },
+    }
   ],
   "skills": [
     {
