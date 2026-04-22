@@ -20,7 +20,7 @@ profiles:
   content: about_stuart.md
   image_circular: true # crops the image to make it circular
 - align: left
-  image: bishop-jack-cropped-230x230.jpg
+  image: jbishop.jpg
   content: about_jack.md
   image_circular: true # crops the image to make it circular
 - align: right
