@@ -12,4 +12,5 @@ nav_order: 6
 - Y1 Laboratory supervision 2022
 
 ### Geant4 introduction
-Material mostly taken from  Geant4 courses taught by INFN and some more stuff found around the web.
+
+Material mostly taken from Geant4 courses taught by INFN and some more stuff found around the web.

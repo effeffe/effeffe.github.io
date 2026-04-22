@@ -22,7 +22,7 @@
       }
     ]
   },
-   "education": [
+  "education": [
     {
       "institution": "University of Birmingham, Birmingham, UK",
       "location": "Birmingham, UK",
@@ -31,7 +31,7 @@
       "studyType": "PhD",
       "startDate": "2022-09",
       "endDate": "2026-09",
-      "courses":[]
+      "courses": []
     },
     {
       "institution": "University of Birmingham, Birmingham, UK",
@@ -41,7 +41,7 @@
       "studyType": "MSci",
       "startDate": "2018-09",
       "endDate": "2022-06",
-      "courses":[]
+      "courses": []
     }
   ],
   "volunteer": [
@@ -87,22 +87,12 @@
     {
       "name": "Computing",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Linux",
-        "Phyton",
-        "C/C++",
-        "High Performance Computing",
-        "MPI",
-        "Server Administration"
-      ]
+      "keywords": ["Linux", "Phyton", "C/C++", "High Performance Computing", "MPI", "Server Administration"]
     },
     {
       "name": "Electronics",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "AVR Assembler",
-        "Microcontrollers"
-      ]
+      "keywords": ["AVR Assembler", "Microcontrollers"]
     }
   ],
   "languages": [
@@ -121,13 +111,7 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Nuclear Physics",
-        "Nuclear Electronics",
-        "Geant4",
-        "Monte Carlo",
-        "Data Acquisition"
-      ]
+      "keywords": ["Nuclear Physics", "Nuclear Electronics", "Geant4", "Monte Carlo", "Data Acquisition"]
     }
   ],
   "references": [
