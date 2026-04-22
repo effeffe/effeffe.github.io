@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Filippo
-middle_name: 
+middle_name:
 last_name: Falezza
 contact_note: >
   f dot falezza at pgr dot bham dot ac dot uk         filippo dot falezza at outlook dot it
@@ -145,8 +145,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-#  books:
-#    output: false
+  #  books:
+  #    output: false
   news:
     defaults:
       layout: post
