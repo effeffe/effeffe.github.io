@@ -4,7 +4,7 @@ title: ML isotope identification
 description: A portable detector and machine-learning pipeline for unknown-isotope ID.
 img: assets/img/G4.png
 importance: 5
-category: fun
+category: teahing
 related_publications: false
 ---
 
