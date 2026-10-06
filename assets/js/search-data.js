@@ -51,11 +51,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-mainline-linux-moto-g-5g-plus",
+        },{id: "post-mainline-linux-and-arch-linux-arm-on-the-moto-g-5g-plus",
         
-          title: "Mainline Linux Moto G 5g Plus",
+          title: "Mainline Linux and Arch Linux ARM on the Moto G 5G Plus",
         
-        description: "",
+        description: "The problems I hit bringing a mainline kernel and Arch Linux ARM up on the Motorola Moto G 5G Plus (SM7250, &quot;nairo&quot;), and how each one was solved.",
         section: "Posts",
         handler: () => {
           
@@ -89,6 +89,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-rewrite-of-the-geant4-mpi-interface-for-openmpi-3-was-merged-upstream-pr-81-and-ships-in-geant4-11-4",
           title: 'My rewrite of the Geant4 MPI interface for OpenMPI 3+ was merged upstream...',
+          description: "",
+          section: "News",},{id: "news-our-paper-simulation-and-analysis-of-an-ambe-source-is-published-in-nuclear-instruments-and-methods-in-physics-research-a-doi-10-1016-j-nima-2025-171233-the-source-term-and-simulation-template-are-released-alongside-it",
+          title: 'Our paper Simulation and analysis of an AmBe source is published in Nuclear...',
           description: "",
           section: "News",},{id: "news-started-writing-up-phd-thesis-on-simulating-and-reconstructing-alpha-induced-9-be-neutron-sources-and-their-moderation",
           title: 'Started writing up: PhD thesis on simulating and reconstructing $\alpha$-induced $^{9}$Be neutron sources...',
