@@ -1,15 +1,40 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Frequent co-authors. The key is the co-author's last name (lower-case, as it
+# appears in the .bib file); jekyll-scholar uses this to link names in the
+# publications list. See https://github.com/alshedivat/al-folio for details.
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"bishop":
+  - firstname: ["Jack", "J.", "J. D."]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/bishop-jack
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"kokalova":
+  - firstname: ["Tzany", "T.", "Tzany Kokalova"]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/kokalova-wheldon-tzany
+"kokalova wheldon":
+  - firstname: ["Tzany", "T."]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/kokalova-wheldon-tzany
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wheldon":
+  - firstname: ["Carl", "C.", "Carl Wheldon"]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/wheldon-carl
+
+"pirrie":
+  - firstname: ["Stuart", "S.", "S. H.", "Stuart Hamilton"]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/pirrie-stuart
+
+"curtis":
+  - firstname: ["Neil", "N."]
+
+"freer":
+  - firstname: ["Martin", "M."]
+    url: https://www.birmingham.ac.uk/staff/profiles/physics/freer-martin
+
+"smith":
+  - firstname: ["Robin", "R."]
+    url: https://www.shu.ac.uk/about-us/our-people/staff-profiles/robin-smith
+
+"soic":
+  - firstname: ["Neven", "N."]
+"sigmund":
+  - firstname: ["Margareta", "M."]
+"conroy":
+  - firstname: ["Max", "M."]

@@ -1,29 +1,11 @@
 # this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: filippo dot falezza at outlook dot com # your email address
-github_username: effeffe # your GitHub user name
-# inspirehep_id: 1010907 # Inspire HEP author ID
-# instagram_id: # your instagram id
-# linkedin_username: # your LinkedIn user name
-orcid_id: 0000-0002-8289-3943 # your ORCID ID
-research_gate_profile: Filippo_Falezza # your profile on ResearchGate
-rss_icon: true # set to true to show the RSS icon
-# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
-# spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
-# telegram_username: # your Telegram user name
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-#custom_social: # can be any name here other than the ones already defined above
-#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-#  title: Custom Social
-#  url: https://www.alberteinstein.com/
+email: filippo dot falezza at outlook dot com
+github_username: effeffe
+linkedin_username: filippo-falezza
+orcid_id: 0000-0002-8289-3943
+research_gate_profile: Filippo_Falezza
+# scholar_userid: # add your Google Scholar ID once the profile exists
+# inspirehep_id: # add your INSPIRE-HEP author ID once claimed
+rss_icon: true

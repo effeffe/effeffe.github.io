@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Simulation, analysis and instrumentation work, in and around my PhD.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

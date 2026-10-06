@@ -1,0 +1,9 @@
+# GitHub profiles and repositories rendered on the /repositories/ page.
+
+github_users:
+  - effeffe
+  - bhamnuclear
+
+github_repos:
+  - bhamnuclear/Geant4-MPI
+  - effeffe/effeffe.github.io

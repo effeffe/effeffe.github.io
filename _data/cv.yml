@@ -1,0 +1,132 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Filippo Falezza
+    - name: Position
+      value: Nuclear Physics PhD Student
+    - name: Affiliation
+      value: School of Physics &amp; Astronomy, University of Birmingham, UK
+    - name: Email
+      value: filippo dot falezza at outlook dot com
+    - name: Research interests
+      value: Computational and experimental nuclear physics; Geant4 Monte Carlo simulation; neutron and gamma-ray sources; cluster structure and radioactive beams; digital acquisition systems and detector electronics
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD, Nuclear Physics
+      institution: University of Birmingham, UK
+      year: 2022 - 2026
+      description:
+        - "Thesis: <em>On simulating and reconstructing &alpha;-induced <sup>9</sup>Be neutron sources and their moderation</em>"
+        - Supervisors - Dr Jack Bishop, Prof Carl Wheldon, Prof Tzany Kokalova Wheldon
+    - title: MSci Physics (First Class / 2:1 with Honours)
+      institution: University of Birmingham, UK
+      year: 2018 - 2022
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Doctoral Researcher
+      institution: Nuclear Physics Group, University of Birmingham
+      year: 2022 - 2026
+      description:
+        - title: AmBe simulation and characterisation
+          contents:
+            - Designed and validated a full Geant4 simulation of a <sup>241</sup>Am-<sup>9</sup>Be neutron source using an analytical <sup>9</sup>Be(&alpha;,n)<sup>12</sup>C primary generator, modelling detector response of HPGe, LiI and proportional counters against experimental measurements.
+        - title: Detector simulation and analysis
+          contents:
+            - Detector response modelling and analysis for an array of 10 LaBr<sub>3</sub> detectors and two DSSD telescopes for gamma-ray coincidence measurements.
+            - Implemented a MIDAS-to-ROOT data converter and a full ROOT/C++ analysis framework for DSSD telescope data, replacing the legacy SunSort analysis.
+        - title: Digital acquisition system
+          contents:
+            - Designed and commissioned the digital DAQ system for the MC40 cyclotron at Birmingham - VME crate (4x CAEN V2745, V2740, V1730S) with a VME bridge to redundant Dell R360 data servers and a ZFS RAIDZ2 storage pool.
+        - title: Detector electronics
+          contents:
+            - Designed a charge-sensitive preamplifier and shaping amplifier for PMT readout in a portable isotope-identification detector system.
+        - title: Radioactive beam experiments
+          contents:
+            - <sup>7</sup>Be(d,p)<sup>8</sup>Be with the ISOLDE Solenoidal Spectrometer (ISS), CERN - acquisition and online monitoring.
+            - <sup>9</sup>Li + boron in the TUDA-II chamber at ISAC-II, TRIUMF - detector operation, acquisition and online monitoring.
+
+- title: Teaching and Supervision
+  type: time_table
+  contents:
+    - title: Postgraduate Teaching Assistant
+      institution: School of Physics &amp; Astronomy, University of Birmingham
+      year: 2022 - 2026
+      description:
+        - Supervised third-year Nuclear Laboratory sessions across the full range of radiation-detection techniques (&alpha;, &beta;, &gamma;, X-rays, detector timing with TAC).
+        - "Supervised the Y3 group study project <em>Development of a Machine Learning Algorithm for Unknown Isotopes Identification</em> (2023-2026): experimental spectra acquisition, Geant4 training-data generation, portable scintillator detector design, and training of the identification algorithm."
+        - Supervised first-year undergraduate laboratory sessions (2022).
+
+- title: Publications
+  type: list
+  contents:
+    - <a href="/publications/">See the full, automatically generated list of publications.</a>
+
+- title: Selected Conference Contributions
+  type: time_table
+  contents:
+    - title: Zakopane Conference on Nuclear Physics
+      year: 2024
+      description:
+        - "Contribution on neutron-rich light nuclei studied via reactions with the <sup>9</sup>Li beam (published in Acta Phys. Pol. B Proc. Suppl. <strong>19</strong>, 1-A11)."
+
+- title: Open-Source Contributions
+  type: time_table
+  contents:
+    - title: Geant4-MPI
+      year: 2024
+      description:
+        - Rewrote the G4mpi interface for OpenMPI 3+ compatibility (C bindings, CLI-argument parsing). Merged upstream into Geant4 11.4 (<a href="https://github.com/Geant4/geant4/pull/81">PR #81</a>).
+    - title: Arch User Repository
+      description:
+        - Package maintainer / contributor.
+
+- title: Technical Skills
+  type: list_groups
+  contents:
+    - category: Computational nuclear physics
+      items:
+        - name: "Geant4 (detector modelling, binary-reaction physics, HPC-parallelised with OpenMPI)"
+        - name: "ROOT (analysis, framework development, MIDAS conversion)"
+        - name: "HPC / batch computing, MPI, NVIDIA CUDA"
+    - category: Experimental nuclear physics
+      items:
+        - name: "Gamma, neutron and charged-particle spectroscopy"
+        - name: "HPGe, NaI, LaBr3, plastic scintillators, proportional counters, X-PIPS, gas detectors, DSSDs"
+        - name: "SiPM and PMT readout; NIM/VME and CAEN analogue and digital acquisition"
+    - category: Electronics
+      items:
+        - name: "Charge-sensitive preamplifier and shaping-amplifier design"
+        - name: "NIM/VME module operation (ORTEC, Canberra, CAEN); TAC timing systems"
+        - name: "PCB design (KiCad)"
+    - category: Programming
+      items:
+        - name: "C++, Python, Fortran"
+        - name: "Git, LaTeX, shell"
+    - category: Systems
+      items:
+        - name: "Linux (Arch, RHEL), ZFS, server administration"
+        - name: "Arduino / AVR, Blender, OpenSCAD"
+
+- title: Certifications
+  type: time_table
+  contents:
+    - title: Fundamentals of Accelerated Computing with CUDA C/C++
+      institution: NVIDIA Deep Learning Institute
+      year: 2021
+
+- title: Languages
+  type: list_groups
+  contents:
+    - category: Languages
+      items:
+        - name: English
+          level: Fluent (degree level)
+        - name: Italian
+          level: Native
+        - name: French
+          level: Basic
