@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-mainline-linux-and-arch-linux-arm-on-the-moto-g-5g-plus",
+        },{id: "post-relocking-the-moto-g-5g-plus-bootloader-with-lineageos-and-avbroot",
+        
+          title: "Relocking the Moto G 5G Plus bootloader with LineageOS and avbroot",
+        
+        description: "How I got LineageOS 23.2 running on a Moto G 5G Plus (nairo) with a relocked bootloader and my own verified boot key, using avbroot, and the four device-specific problems the avbroot guide doesn&#39;t cover.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/relocking-moto-g-5g-plus-avbroot/";
+          
+        },
+      },{id: "post-mainline-linux-and-arch-linux-arm-on-the-moto-g-5g-plus",
         
           title: "Mainline Linux and Arch Linux ARM on the Moto G 5G Plus",
         
