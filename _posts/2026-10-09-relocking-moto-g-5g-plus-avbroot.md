@@ -44,7 +44,7 @@ Versions used:
 
 **Warning.** Locking with images the bootloader doesn't accept leaves you with
 a phone that boots neither Android nor recovery. You get out of that only if
-the *OEM unlocking* flag is set (see [below](#the-oem-unlocking-switch)).
+the _OEM unlocking_ flag is set (see [below](#the-oem-unlocking-switch)).
 Everything here wipes userdata more than once.
 
 ## Why LineageOS and not stock
@@ -95,6 +95,7 @@ phone in the bootloader:
 ```sh
 fastboot flash avb_custom_key avb_pkmd.bin
 ```
+
 ```
 Warning: skip copying avb_custom_key image avb footer (avb_custom_key partition size: 0, avb_custom_key image size: 1032).
 Sending 'avb_custom_key' (1 KB)                    OKAY [  0.001s]
@@ -121,7 +122,7 @@ avbroot ota patch \
   LineageOS's own `adb root` (a userdebug build).
 - `--clear-vbmeta-flags`: LineageOS ships its root `vbmeta` with
   `flags = 3`, which turns verification off. avbroot refuses that (`Verified
-  boot is disabled by vbmeta's header flags: 0x3`), since a locked phone
+boot is disabled by vbmeta's header flags: 0x3`), since a locked phone
   with verification disabled makes no sense. The option sets the flags to 0.
 
 This patch is **not** bootable on nairo yet: problems 3 and 4 below need two
@@ -410,7 +411,7 @@ failed lock can be undone.
 
 ## The OEM unlocking switch
 
-The README warns to keep *OEM unlocking* on. On a locked phone, `fastboot
+The README warns to keep _OEM unlocking_ on. On a locked phone, `fastboot
 oem unlock` (or `flashing unlock`) is only accepted if that flag is set.
 In LineageOS the switch is greyed out while the bootloader is unlocked
 ("Bootloader is already unlocked"), and on nairo it said off. Motorola's
@@ -465,7 +466,7 @@ $ adb shell getprop ro.boot.vbmeta.device_state
 locked
 ```
 
-The *OEM unlocking* switch is no longer greyed out. Leave it on: it's the
+The _OEM unlocking_ switch is no longer greyed out. Leave it on: it's the
 way back if something goes wrong. And it costs nothing, since `oem unlock`
 still needs Motorola's code.
 
@@ -489,8 +490,8 @@ that OTA:
    4096 + the kernel size + the ramdisk size, each rounded up to 4096 bytes,
    from `avbroot boot info` (problem 3).
 3. Patch again with both replacements and verify.
-4. Sideload the result from recovery (`adb reboot recovery`, then *Apply
-   update*, then `adb sideload ota.zip.patched`). Recovery now holds my
+4. Sideload the result from recovery (`adb reboot recovery`, then _Apply
+   update_, then `adb sideload ota.zip.patched`). Recovery now holds my
    certificate, so it accepts my OTAs and refuses LineageOS's unpatched ones.
 
 Never install an OTA that still has rollback index 0 while locked: the new
