@@ -33,4 +33,4 @@ My research sits between computation and experiment. The core of my thesis is a 
 
 I have taken part in radioactive-beam campaigns at **CERN ISOLDE** (ISS, $^{7}$Be(d,p)$^{8}$Be) and **TRIUMF** ISAC-II ($^{9}$Li on boron), and I contribute to open-source scientific software — my rewrite of the Geant4-MPI interface was merged into Geant4 11.4.
 
-See my [publications](/publications/), [projects](/projects/) and [CV](/cv/), or get in touch by [email](mailto:filippo.falezza@outlook.com).
+See my [publications](/publications/), [projects](/projects/) and [CV](/cv/), or get in touch by email ([filippo.falezza@outlook.com](mailto:filippo.falezza@outlook.com) or [effeffe99@gmail.com](mailto:effeffe99@gmail.com)).
