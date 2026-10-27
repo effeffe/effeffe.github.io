@@ -540,7 +540,7 @@ things were missing, and each hid the other:
   between the modem and Linux, and the modem firmware waits for the AP's IPA
   driver to complete a QMI handshake during startup. Without it the modem now
   asserted three seconds after starting (`ipa_hwp_init ... didnt rx any ind frm
-  HWP`). SM7250 has the same IPA v4.7 as SM6350, which mainline already
+HWP`). SM7250 has the same IPA v4.7 as SM6350, which mainline already
   supports, so the driver needed only a new entry with a different IMEM address
   for the modem tables, plus a device-tree node with the SM7250 SMMU stream IDs.
   The value I first took from downstream for the modem's shared-memory region
@@ -657,7 +657,7 @@ didn't find the exact rule.
 Two things made the experiments safe:
 
 - **The stock `gpt.bin`** from the matching firmware. `fastboot flash partition
-  gpt.bin` rewrites all six LUN tables to the factory layout in a second,
+gpt.bin` rewrites all six LUN tables to the factory layout in a second,
   leaving partition contents alone.
 - **Never letting sfdisk write the table.** Motorola sets vendor attribute bits
   (3 to 6) on most partitions, and sfdisk silently drops them. I edited the
